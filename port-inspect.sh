@@ -21,7 +21,6 @@ EOU
 }
 
 function main {
-
 	while IFS= read -r line; do
 		data=$(printf "%s\n" "$line" | awk '{print $7}')
 		addr=$(printf "%s\n" "$line" | awk '{print $6}')

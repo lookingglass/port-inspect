@@ -34,7 +34,7 @@ Busy since: Jun 6 13:06:12
 
 3. **Run tool:**
    ```bash
-   ./port-inspect.sh
+   ./port-inspect.sh <port>
    ```
 
 ---
