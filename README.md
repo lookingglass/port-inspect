@@ -1,22 +1,12 @@
-# 🍃 port-inspect
-<p align="center">
-  ☁️ <strong>Lightweight tool that reveals information about port in use. 
-    <br>No extra dependencies. Pure Bash.</strong>
+# port-inspect
+<p align=center>
+   <img src="https://i.imgur.com/YWvAUgN.png" width="70%">
 </p>
+<p align="center">
+<strong>Lightweight tool to obtain information about taken port</strong>
+</p>
+<br>
 
-## 🧠 What it does?
-It basically provides a small report regarding specific port:
-```
-Checking port 3000/tcp: 
-PID: 2599
-Service: docker.service (Docker Application Container Engine)
-Currently taken by: docker-proxy
-Location: /usr/bin/docker-proxy
-Command: /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 3000 -container-ip 172.17.0.2 -container-port 3000 -use-listen-fd
-Network: 0.0.0.0:*
-Owner: root
-Busy since: Jun 6 13:06:12
-```
 ---
 
 ## 🚀 Installation & Run
@@ -41,5 +31,7 @@ Busy since: Jun 6 13:06:12
 
 
 ## 🆗 Tested on:
-- Ubuntu 24.04
-- Fedora 43
+
+* ![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu_24.04-E95420?logo=ubuntu&logoColor=white)<br>
+* ![Fedora 43](https://img.shields.io/badge/Fedora_43-51A2DA?logo=fedora&logoColor=white)<br>
+* ![AlmaLinux 9.6](https://img.shields.io/badge/AlmaLinux_9.6-0F4266?logo=almalinux&logoColor=white)<br>
