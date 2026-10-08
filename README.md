@@ -14,7 +14,7 @@
 1. **Clone repository:**
    ```bash
    git clone https://github.com/lookingglass/port-inspect
-   cd rapid-iperf
+   cd port-inspect
    ```
 
 2. **Make script executable:**
